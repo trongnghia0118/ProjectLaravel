@@ -1,0 +1,84 @@
+<div class="cdt-product  product-sale">
+    <div class="cdt-product__img"
+        style="background-image: url(&quot;https://images.fpt.shop/unsafe/fit-in/540x420/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/5/31/638527752939152138_frame-cate-270x210.png&quot;); background-repeat: no-repeat; background-position: center center;">
+        <a href="/dien-thoai/samsung-galaxy-s23-fe?dung-luong=128gb"><img
+                src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/3/27/638471599704474139_samsung-galaxy-s23--fe-den-dd-AI.jpg"
+                alt="Samsung Galaxy S23 FE 5G 128GB" title="Samsung Galaxy S23 FE 5G 128GB" height="214"></a>
+        <div class="cdt-product__label"><span class="badge badge-warning">Trả góp 0%</span><span
+                class="badge badge-primary">Giảm 3.000.000đ</span></div>
+    </div>
+    <div class="cdt-product__info">
+        <h3><a href="/dien-thoai/samsung-galaxy-s23-fe?dung-luong=128gb" title="Samsung Galaxy S23 FE 5G 128GB"
+                class="cdt-product__name">Samsung Galaxy S23 FE 5G 128GB</a></h3>
+        <div class="cdt-product__memory--price mmr3-price">
+            <div class="mmr-box item1 active"><strong>128GB</strong></div>
+            <div class="mmr-box item1"><strong>256GB</strong></div>
+        </div>
+        <div class="cdt-product__show-promo">
+            <div class="progress">11.890.000 ₫<div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <div class="strike-price"><strike>14.890.000 ₫</strike>
+                <div class="cd">23 ngày 07:12:16</div>
+            </div>
+        </div>
+        <div class="cdt-product__config list-layout">
+            <div class="cdt-product__config__param"><span data-title="CPU"><i class="icon-cpu"></i>Exynos
+                    2200</span><span data-title="Màn hình"><i class="icon-mobile"></i>6.4 inch</span><span
+                    data-title="RAM"><i class="icon-ram"></i>8 GB</span><span data-title="Bộ nhớ trong"><i
+                        class="icon-hdd-black"></i>128 GB</span></div>
+        </div>
+        <div class="cdt-product__btn"><a href="/dien-thoai/samsung-galaxy-s23-fe?dung-luong=128gb"
+                class="btn btn-primary btn-sm btn-main">MUA NGAY</a><a
+                href="https://fptshop.com.vn/so-sanh-san-pham?samsung-galaxy-s23-fe"
+                class="btn btn-secondary btn-sm btn-sub">SO SÁNH</a></div>
+    </div>
+    <div class="cdt-product__config">
+        <div class="cdt-product__config__param"><span data-title="CPU"><i class="icon-cpu"></i>Exynos 2200</span><span
+                data-title="Màn hình"><i class="icon-mobile"></i>6.4 inch</span><span data-title="RAM"><i
+                    class="icon-ram"></i>8 GB</span><span data-title="Bộ nhớ trong"><i class="icon-hdd-black"></i>128
+                GB</span></div>
+        <div class="cdt-product__img-promo"><span class="active">
+                <div class="lazyload-wrapper "><img
+                        src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Vnapy-1693370130549.png"
+                        alt="Giảm từ 50.000đ đến 300.000đ qua VNPAY-QR" width="45" height="45"
+                        data-promo="KM-0324-0738"></div>
+            </span><span>
+                <div class="lazyload-wrapper "><img
+                        src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Logo-1711608161110.jpeg"
+                        alt="Giảm ngay 800.000đ khi mở thẻ tín dụng VPBank" width="45" height="45"
+                        data-promo="KM-0324-0943"></div>
+            </span><span>
+                <div class="lazyload-wrapper "><img
+                        src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Zalopay-1693187470025.png"
+                        alt="Nhập mã ZLPFPT Giảm 300.000đ khi thanh toán qua ZaloPay" width="45" height="45"
+                        data-promo="KM-0424-0001"></div>
+            </span><span>
+                <div class="lazyload-wrapper "><img
+                        src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/https://s3-sgn09.fptcloud.com/ict-k8s-promotion-prod/images-promotion/Logo%20Muadee%20x%20Visa-1710728086318.jpeg"
+                        alt="Giảm đến 1 triệu trả góp qua Visa (Muadee by HDBank)" width="45" height="45"
+                        data-promo="KM-0324-0435"></div>
+            </span>
+            <div id="plistppromotion45349" class="cdt-product__text-promo">Giảm từ 50.000đ đến 300.000đ qua VNPAY-QR
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var ds = document.querySelectorAll('.cdt-product.product-sale');
+    var dsSP = [];
+    ds.forEach(sp =>{
+        var image = sp.querySelector('.cdt-product__img img').src.split('/').pop();
+        var name = sp.querySelector('.cdt-product__info h3 a').innerText;
+        var price = Number(sp.querySelector('.strike-price strike').innerText.replace(/[^0-9]/g,''));
+        var sale_price = Number(sp.querySelector('.progress').innerText.replace(/[^0-9]/g,''));
+        var obj = {
+            name,
+            image,
+            price,
+            sale_price
+        }
+        dsSP.push(obj);
+
+    });
+    console.log(dsSP);
+</script>
